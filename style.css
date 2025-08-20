@@ -1,0 +1,137 @@
+/* Pre Code Settings */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main{
+    width: 100vw;
+}
+
+a{
+    text-decoration: none;
+    color: #212121;
+}
+
+.flex{
+    display: flex;
+}
+
+ul{
+    list-style: none;
+}
+
+/* Utlitiy Classes */
+
+/* Header */
+.header-img{
+    width: 10vw;
+}
+
+.header{
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 2vw;
+    height: 11vh;
+}
+
+.navigation{
+    width: 45%;
+    font-size: 1.2rem;
+}
+
+.list1{
+    justify-content: space-between;
+    gap: 1.5vw;
+}
+
+.right-content{
+    gap: 4vw;
+    font-size: 1.2rem;
+    align-items: center;
+}
+
+.primaryButton{
+    background-color: rgb(74, 74, 247);
+    color: white;
+    padding-block: 2vh;
+    padding-inline: 1.1vw;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.primaryButton:hover{
+    background-color: rgb(44, 44, 241);
+}
+
+.secondaryButton{
+    background-color: #212121;
+    color: white;
+    padding-block: 2vh;
+    padding-inline: 1.1vw;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.secondaryButton:hover{
+    background-color: black;
+}
+
+.list1 li a{
+    color: grey; 
+    transition: all 0.2s ease-in-out;
+}
+
+.list1 li a:hover{
+    color:black; 
+}
+
+
+/* Background Section */
+
+.bgSection{
+    height: calc(100vh - 11vh);
+    background-image: url(https://www.apple.com/newsroom/images/product/watch/standard/Apple_watch-series7-availability_lp_10052021.jpg.og.jpg?202505081829);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position-x: 400px;
+}
+
+.bgSection{
+    flex-direction: column;
+    justify-content: center;
+    padding-inline: 2vw;
+    gap: 5vh;
+}
+
+/* Background Content */
+
+.firstHeading{
+    font-size: 2rem;
+    color: grey;
+}
+
+.secondHeading{
+    font-size: 3rem;
+    color: rgb(51, 51, 51);
+}
+
+.thirdHeading{
+    font-size: 4rem;
+}
+
+.buttonSection{
+    gap: 2vw;
+}
+
+.buttonSection .primaryButton{
+    padding-block: 2.5vh;
+}
+
+.buttonSection .secondaryButton{
+    padding-block: 2.5vh;
+    padding-inline: 2.1vw;
+}
